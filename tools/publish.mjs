@@ -7,6 +7,7 @@
 import crypto from "crypto";
 import fs from "fs";
 import path from "path";
+import { buildPage } from "./build-page.mjs";
 
 const PAGE_URL = (process.env.APK_PAGE_URL || "https://rdudr.github.io/AR-Enterprise-APPS-Repo-").replace(/\/$/, "");
 const KEEP = 3; // APK files kept per app; older versions stay listed but are not downloadable
@@ -91,4 +92,5 @@ index.apps = Object.fromEntries(Object.entries(index.apps).sort(([a], [b]) => ra
 index.updated_at = release.released_at;
 index.$comment = "Written by tools/publish.mjs. Installed AR apps read apps[<code>].version and apk_url to offer updates.";
 fs.writeFileSync(indexPath, JSON.stringify({ $comment: index.$comment, updated_at: index.updated_at, apps: index.apps }, null, 2) + "\n");
+buildPage(root);
 console.log(`Published ${name} v${version} -> apps/${code}/${file} (${(bytes.length / 1e6).toFixed(1)} MB)`);
