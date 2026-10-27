@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AR Enterprise Apps — Downloads</title>
+<meta name="description" content="Android field apps of AR Energy Services: the latest version of each app, with earlier versions.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#fbf9f4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #fbf9f4; --cream: #f4f0e6; --sand: #e7e0cf; --forest: #1c2618; --olive: #434f35;
+    --moss: #5f7048; --ink: #1d2219; --muted: #5c6656; --line: rgba(28, 38, 24, .14);
+    --serif: "Fraunces", Georgia, serif; --sans: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.55 var(--sans); }
+  a { color: var(--olive); }
+  :focus-visible { outline: 3px solid var(--olive); outline-offset: 2px; border-radius: 6px; }
+  .skip { position: absolute; left: -999px; top: 8px; background: var(--forest); color: #fff; padding: 8px 14px; border-radius: 8px; }
+  .skip:focus { left: 16px; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+  header { border-bottom: 1px solid var(--line); background: var(--cream); }
+  header .wrap { display: flex; align-items: center; gap: 12px; padding-top: 18px; padding-bottom: 18px; }
+  header img { width: 40px; height: 40px; }
+  header p { margin: 0; font-weight: 600; }
+  header span { display: block; font-size: 14px; font-weight: 400; color: var(--muted); }
+  h1 { font: 600 clamp(28px, 5vw, 40px)/1.15 var(--serif); margin: 36px 0 8px; color: var(--forest); }
+  .lead { max-width: 62ch; color: var(--muted); margin: 0 0 8px; }
+  .updated { font-size: 14px; color: var(--muted); margin: 0 0 28px; }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 20px; display: flex; flex-direction: column; gap: 12px;
+          transition: box-shadow .2s, border-color .2s; }
+  .card:hover, .card:focus-within { border-color: rgba(28, 38, 24, .28); box-shadow: 0 10px 28px -14px rgba(28, 38, 24, .35); }
+  .head { display: flex; gap: 14px; align-items: center; }
+  .head img { width: 56px; height: 56px; border-radius: 14px; flex: none; background: var(--cream); }
+  .card h2 { font: 600 20px/1.2 var(--serif); margin: 0; color: var(--forest); }
+  .tagline { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 14px; color: var(--muted); margin: 0; }
+  .meta strong { color: var(--ink); }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 12px;
+         background: var(--forest); color: #fff; text-decoration: none; font-weight: 600; transition: background .15s, transform .15s; }
+  .btn:hover { background: var(--olive); }
+  @media (prefers-reduced-motion: no-preference) { .btn:hover { transform: translateY(-1px); } }
+  .btn svg { width: 18px; height: 18px; }
+  details { border-top: 1px solid var(--line); padding-top: 10px; font-size: 14px; }
+  summary { cursor: pointer; color: var(--olive); font-weight: 600; padding: 4px 0; }
+  .hist { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+  .hist li { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  .hist .gone { color: var(--muted); }
+  code { font-size: 12px; word-break: break-all; color: var(--muted); }
+  .note { background: var(--cream); border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 32px 0; }
+  .note h2 { font: 600 20px/1.2 var(--serif); margin: 0 0 8px; color: var(--forest); }
+  .note ol { margin: 0; padding-left: 20px; }
+  .note li + li { margin-top: 6px; }
+  .state { padding: 24px; border: 1px dashed var(--line); border-radius: 18px; color: var(--muted); }
+  footer { border-top: 1px solid var(--line); padding: 24px 0 40px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the apps</a>
+<header>
+  <div class="wrap">
+    <img src="logo-mark.png" alt="" width="40" height="40">
+    <p>AR Energy Services<span>AR Enterprise field apps</span></p>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <h1>Android apps</h1>
+  <p class="lead">The apps our engineers use on site. Each one works offline and sends its readings to the AR Energy Services server when the phone is back online. Every app is listed with its newest version first.</p>
+  <p class="updated" id="updated" aria-live="polite"></p>
+
+  <div class="grid" id="apps" aria-busy="true">
+    <p class="state">Loading the app list…</p>
+  </div>
+
+  <section class="note" aria-labelledby="install">
+    <h2 id="install">Installing and updating</h2>
+    <ol>
+      <li>Open this page on the Android phone and tap <strong>Download</strong> under the app.</li>
+      <li>Open the downloaded file. The first time, Android asks you to allow installs from your browser: allow it for this one install.</li>
+      <li>Sign in with the account your AR Enterprise administrator gave you.</li>
+      <li>When a newer version is published, the app shows a message with a download link. Installing it over the old version keeps everything saved on the phone.</li>
+    </ol>
+    <p>To check a download, compare its SHA-256 fingerprint with the one listed under <em>Earlier versions and file details</em>.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>AR Energy Services · <a href="https://arenergyservices.in">arenergyservices.in</a> · For access to the apps, contact your AR Enterprise administrator.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var list = document.getElementById("apps");
+  var DOWNLOAD = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>';
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function mb(n) { return (n / 1e6).toFixed(1) + " MB"; }
+  function day(iso) {
+    return new Date(iso).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" });
+  }
+
+  function card(code, a) {
+    var hist = (a.history || []).map(function (h) {
+      var label = "v" + esc(h.version) + " · " + day(h.released_at);
+      return h.hosted
+        ? '<li><a href="' + esc(h.apk_url) + '">' + label + "</a><span>" + mb(h.size) + "</span></li>"
+        : '<li class="gone"><span>' + label + "</span><span>no longer hosted</span></li>";
+    }).join("");
+    return '<article class="card" aria-labelledby="t-' + esc(code) + '">' +
+      '<div class="head">' + (a.icon ? '<img src="' + esc(a.icon) + '" alt="" width="56" height="56" loading="lazy">' : "") +
+      '<div><h2 id="t-' + esc(code) + '">' + esc(a.name) + "</h2>" +
+      (a.tagline ? '<p class="tagline">' + esc(a.tagline) + "</p>" : "") + "</div></div>" +
+      '<p class="meta"><span>Version <strong>' + esc(a.version) + "</strong></span><span>" + day(a.released_at) + "</span><span>" + mb(a.size) + "</span></p>" +
+      '<a class="btn" href="' + esc(a.apk_url) + '" download aria-label="Download ' + esc(a.name) + " version " + esc(a.version) + '">' + DOWNLOAD + " Download</a>" +
+      "<details><summary>Earlier versions and file details</summary>" +
+      '<ul class="hist">' + hist + "</ul>" +
+      '<p>File: ' + esc(a.file) + "<br>SHA-256: <code>" + esc(a.sha256) + "</code></p></details>" +
+      "</article>";
+  }
+
+  fetch("apps.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (idx) {
+      var apps = idx.apps || {};
+      var codes = Object.keys(apps);
+      list.innerHTML = codes.length
+        ? codes.map(function (c) { return card(c, apps[c]); }).join("")
+        : '<p class="state">No app has been published yet.</p>';
+      if (idx.updated_at) document.getElementById("updated").textContent = "Last updated " + day(idx.updated_at) + ".";
+    })
+    .catch(function () {
+      list.innerHTML = '<p class="state">The app list could not be loaded. Check the connection and reload the page.</p>';
+    })
+    .then(function () { list.setAttribute("aria-busy", "false"); });
+})();
+</script>
+</body>
+</html>

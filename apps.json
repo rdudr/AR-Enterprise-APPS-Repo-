@@ -1,0 +1,150 @@
+{
+  "$comment": "Written by tools/publish.mjs. Installed AR apps read apps[<code>].version and apk_url to offer updates.",
+  "updated_at": "2026-10-27T17:09:40.063Z",
+  "apps": {
+    "survey": {
+      "name": "BRIEF",
+      "tagline": "Plant electrical survey — panels, motors, APFC and energy sources",
+      "icon": "apps/survey/icon.png",
+      "version": "0.1.0",
+      "file": "ar-brief-v0.1.0.apk",
+      "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/survey/ar-brief-v0.1.0.apk",
+      "size": 4209611,
+      "sha256": "f421f3cfc0055f435d7caf7ffd6b3c1df5ab600832f847e970c2a724c56c3ac5",
+      "released_at": "2026-10-27T16:59:11.610Z",
+      "commit": "cabb443",
+      "history": [
+        {
+          "version": "0.1.0",
+          "file": "ar-brief-v0.1.0.apk",
+          "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/survey/ar-brief-v0.1.0.apk",
+          "size": 4209611,
+          "sha256": "f421f3cfc0055f435d7caf7ffd6b3c1df5ab600832f847e970c2a724c56c3ac5",
+          "released_at": "2026-10-27T16:59:11.610Z",
+          "commit": "cabb443",
+          "hosted": true
+        }
+      ]
+    },
+    "textile": {
+      "name": "JET",
+      "tagline": "Jet dyeing machine efficiency and plant electrical survey",
+      "icon": "apps/textile/icon.png",
+      "version": "0.1.0",
+      "file": "ar-jet-v0.1.0.apk",
+      "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/textile/ar-jet-v0.1.0.apk",
+      "size": 4410622,
+      "sha256": "3879696d3d6ea82ff22a280d6030fc325b54943574faaa20f00c5b0f03a75c9b",
+      "released_at": "2026-10-27T17:01:20.861Z",
+      "commit": "23a7dbe",
+      "history": [
+        {
+          "version": "0.1.0",
+          "file": "ar-jet-v0.1.0.apk",
+          "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/textile/ar-jet-v0.1.0.apk",
+          "size": 4410622,
+          "sha256": "3879696d3d6ea82ff22a280d6030fc325b54943574faaa20f00c5b0f03a75c9b",
+          "released_at": "2026-10-27T17:01:20.861Z",
+          "commit": "23a7dbe",
+          "hosted": true
+        }
+      ]
+    },
+    "pump": {
+      "name": "Pump Testing",
+      "tagline": "Pump performance testing — Transit and Doppler flow meters",
+      "icon": "apps/pump/icon.png",
+      "version": "0.1.0",
+      "file": "ar-pump-testing-v0.1.0.apk",
+      "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/pump/ar-pump-testing-v0.1.0.apk",
+      "size": 4191510,
+      "sha256": "b4ae7085c2acd804564947e794ae57e08cb409a3be93c739bd7a65f120efa665",
+      "released_at": "2026-10-27T17:03:14.681Z",
+      "commit": "6972c09",
+      "history": [
+        {
+          "version": "0.1.0",
+          "file": "ar-pump-testing-v0.1.0.apk",
+          "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/pump/ar-pump-testing-v0.1.0.apk",
+          "size": 4191510,
+          "sha256": "b4ae7085c2acd804564947e794ae57e08cb409a3be93c739bd7a65f120efa665",
+          "released_at": "2026-10-27T17:03:14.681Z",
+          "commit": "6972c09",
+          "hosted": true
+        }
+      ]
+    },
+    "air": {
+      "name": "Air Findings",
+      "tagline": "Compressed air audit — compressor efficiency, FAD and leak tests",
+      "icon": "apps/air/icon.png",
+      "version": "0.2.0",
+      "file": "ar-air-findings-v0.2.0.apk",
+      "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/air/ar-air-findings-v0.2.0.apk",
+      "size": 4477087,
+      "sha256": "876ec3f17a4354f794034ee928dd7783fe050e7006cb56947a950c23ffcd7298",
+      "released_at": "2026-10-27T17:05:20.045Z",
+      "commit": "ba02661",
+      "history": [
+        {
+          "version": "0.2.0",
+          "file": "ar-air-findings-v0.2.0.apk",
+          "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/air/ar-air-findings-v0.2.0.apk",
+          "size": 4477087,
+          "sha256": "876ec3f17a4354f794034ee928dd7783fe050e7006cb56947a950c23ffcd7298",
+          "released_at": "2026-10-27T17:05:20.045Z",
+          "commit": "ba02661",
+          "hosted": true
+        }
+      ]
+    },
+    "heat": {
+      "name": "Boiler & Fuel",
+      "tagline": "Boiler and thermic fluid heater efficiency — direct and indirect methods",
+      "icon": "apps/heat/icon.png",
+      "version": "0.1.0",
+      "file": "ar-boiler-fuel-v0.1.0.apk",
+      "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/heat/ar-boiler-fuel-v0.1.0.apk",
+      "size": 4839792,
+      "sha256": "eb6df8b3eab8c5e1c42f4fcbc8576153da6809333509d8fc853df0b84b148877",
+      "released_at": "2026-10-27T17:07:34.271Z",
+      "commit": "03f12f9",
+      "history": [
+        {
+          "version": "0.1.0",
+          "file": "ar-boiler-fuel-v0.1.0.apk",
+          "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/heat/ar-boiler-fuel-v0.1.0.apk",
+          "size": 4839792,
+          "sha256": "eb6df8b3eab8c5e1c42f4fcbc8576153da6809333509d8fc853df0b84b148877",
+          "released_at": "2026-10-27T17:07:34.271Z",
+          "commit": "03f12f9",
+          "hosted": true
+        }
+      ]
+    },
+    "cool": {
+      "name": "AHU & Cooling",
+      "tagline": "AC, chiller, AHU and cooling-tower performance",
+      "icon": "apps/cool/icon.png",
+      "version": "0.2.0",
+      "file": "ar-ahu-cooling-v0.2.0.apk",
+      "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/cool/ar-ahu-cooling-v0.2.0.apk",
+      "size": 4653442,
+      "sha256": "2fc449309e4cdc6826b94627a5ae97768bed7966c189ab6f56b1a1db8b98f3a7",
+      "released_at": "2026-10-27T17:09:40.063Z",
+      "commit": "eb4e8c1",
+      "history": [
+        {
+          "version": "0.2.0",
+          "file": "ar-ahu-cooling-v0.2.0.apk",
+          "apk_url": "https://rdudr.github.io/AR-Enterprise-APPS-Repo-/apps/cool/ar-ahu-cooling-v0.2.0.apk",
+          "size": 4653442,
+          "sha256": "2fc449309e4cdc6826b94627a5ae97768bed7966c189ab6f56b1a1db8b98f3a7",
+          "released_at": "2026-10-27T17:09:40.063Z",
+          "commit": "eb4e8c1",
+          "hosted": true
+        }
+      ]
+    }
+  }
+}

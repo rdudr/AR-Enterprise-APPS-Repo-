@@ -1,0 +1,21 @@
+# AR Enterprise Apps
+
+Download page for the AR Energy Services Android field apps:
+**https://rdudr.github.io/AR-Enterprise-APPS-Repo-/**
+
+- `index.html` — the download page. It reads `apps.json` and lists every app with its newest version first.
+- `apps.json` — one entry per app: current version, download link, size, SHA-256 and history. Installed
+  apps read it to offer updates, so its shape (`apps.<code>.version`, `apps.<code>.apk_url`) must stay.
+- `apps/<code>/` — the APK files (the last 3 versions of each app) and the app icon.
+- `tools/publish.mjs` — adds a built APK and updates `apps.json`.
+
+Nothing here is edited by hand. Each app repo has a GitHub Actions workflow (`android-apk.yml`) that,
+on every change to its `main` branch, builds a signed APK and publishes it here with `tools/publish.mjs`.
+A build can also be published from a laptop:
+
+```bash
+node scripts/android-apk.mjs --publish ../AR-Enterprise-APPS-Repo-
+```
+
+All apps are signed with the one AR Enterprise key, so an update installs over the old version and
+keeps the data saved on the phone. The key is kept outside every repository.
