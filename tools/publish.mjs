@@ -9,7 +9,7 @@ import fs from "fs";
 import path from "path";
 import { buildPage } from "./build-page.mjs";
 
-const PAGE_URL = (process.env.APK_PAGE_URL || "https://rdudr.github.io/AR-Enterprise-APPS-Repo-").replace(/\/$/, "");
+const PAGE_URL = (process.env.APK_PAGE_URL || "https://ops.arenergyservices.in/apps").replace(/\/$/, "");
 const KEEP = 3; // APK files kept per app; older versions stay listed but are not downloadable
 const HISTORY = 25; // versions listed per app
 // The order apps appear on the page (any other app goes after these).

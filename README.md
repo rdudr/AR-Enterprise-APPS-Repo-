@@ -1,7 +1,7 @@
 # AR Enterprise Apps
 
 Download page for the AR Energy Services Android field apps:
-**https://rdudr.github.io/AR-Enterprise-APPS-Repo-/**
+**https://ops.arenergyservices.in/apps/**
 
 - `index.html` — the download page, **one standalone file**: the app list, icons and logo are embedded and it
   loads nothing from other sites, so it can also be opened or shared on its own. Every app is listed with its
