@@ -1,19 +1,29 @@
 {
   "$comment": "Written by tools/publish.mjs. Installed AR apps read apps[<code>].version and apk_url to offer updates.",
-  "updated_at": "2026-10-28T07:04:55.325Z",
+  "updated_at": "2026-10-28T08:39:13.995Z",
   "apps": {
     "survey": {
       "name": "BRIEF",
       "tagline": "Plant electrical survey — panels, motors, APFC and energy sources",
       "icon": "apps/survey/icon.png",
-      "version": "0.1.3",
-      "file": "ar-brief-v0.1.3.apk",
-      "apk_url": "https://ops.arenergyservices.in/apps/apps/survey/ar-brief-v0.1.3.apk",
-      "size": 4211111,
-      "sha256": "c2430477759f4adbe57fe984249317bf948e011df82d41802b3cae62cabde4be",
-      "released_at": "2026-10-28T06:52:49.323Z",
-      "commit": "eecca73",
+      "version": "0.1.4",
+      "file": "ar-brief-v0.1.4.apk",
+      "apk_url": "https://ops.arenergyservices.in/apps/apps/survey/ar-brief-v0.1.4.apk",
+      "size": 4238031,
+      "sha256": "c4dd94b8d890338f2c09d96398aa6c1233784c82784539612f7ac6e0570442a0",
+      "released_at": "2026-10-28T08:21:09.889Z",
+      "commit": "69adcc2",
       "history": [
+        {
+          "version": "0.1.4",
+          "file": "ar-brief-v0.1.4.apk",
+          "apk_url": "https://ops.arenergyservices.in/apps/apps/survey/ar-brief-v0.1.4.apk",
+          "size": 4238031,
+          "sha256": "c4dd94b8d890338f2c09d96398aa6c1233784c82784539612f7ac6e0570442a0",
+          "released_at": "2026-10-28T08:21:09.889Z",
+          "commit": "69adcc2",
+          "hosted": true
+        },
         {
           "version": "0.1.3",
           "file": "ar-brief-v0.1.3.apk",
@@ -42,7 +52,7 @@
           "sha256": "f421f3cfc0055f435d7caf7ffd6b3c1df5ab600832f847e970c2a724c56c3ac5",
           "released_at": "2026-10-27T16:59:11.610Z",
           "commit": "cabb443",
-          "hosted": true
+          "hosted": false
         }
       ]
     },
@@ -50,14 +60,24 @@
       "name": "JET",
       "tagline": "Jet dyeing machine efficiency and plant electrical survey",
       "icon": "apps/textile/icon.png",
-      "version": "0.1.3",
-      "file": "ar-jet-v0.1.3.apk",
-      "apk_url": "https://ops.arenergyservices.in/apps/apps/textile/ar-jet-v0.1.3.apk",
-      "size": 4413758,
-      "sha256": "4f2e8ec9247855854ccceb87f80ea970ba349e22d89fcdc4f88087e918c5d4a1",
-      "released_at": "2026-10-28T06:54:03.567Z",
-      "commit": "d85922b",
+      "version": "0.1.4",
+      "file": "ar-jet-v0.1.4.apk",
+      "apk_url": "https://ops.arenergyservices.in/apps/apps/textile/ar-jet-v0.1.4.apk",
+      "size": 4415110,
+      "sha256": "6704904ec22e1a21bf718ec899bd03106eb93c702a5c15edbbefe1800f15bb97",
+      "released_at": "2026-10-28T08:25:06.632Z",
+      "commit": "b0967f2",
       "history": [
+        {
+          "version": "0.1.4",
+          "file": "ar-jet-v0.1.4.apk",
+          "apk_url": "https://ops.arenergyservices.in/apps/apps/textile/ar-jet-v0.1.4.apk",
+          "size": 4415110,
+          "sha256": "6704904ec22e1a21bf718ec899bd03106eb93c702a5c15edbbefe1800f15bb97",
+          "released_at": "2026-10-28T08:25:06.632Z",
+          "commit": "b0967f2",
+          "hosted": true
+        },
         {
           "version": "0.1.3",
           "file": "ar-jet-v0.1.3.apk",
@@ -86,7 +106,7 @@
           "sha256": "3879696d3d6ea82ff22a280d6030fc325b54943574faaa20f00c5b0f03a75c9b",
           "released_at": "2026-10-27T17:01:20.861Z",
           "commit": "23a7dbe",
-          "hosted": true
+          "hosted": false
         }
       ]
     },
@@ -94,14 +114,24 @@
       "name": "Pump Testing",
       "tagline": "Pump performance testing — Transit and Doppler flow meters",
       "icon": "apps/pump/icon.png",
-      "version": "0.1.3",
-      "file": "ar-pump-testing-v0.1.3.apk",
-      "apk_url": "https://ops.arenergyservices.in/apps/apps/pump/ar-pump-testing-v0.1.3.apk",
-      "size": 4183862,
-      "sha256": "f94f4ccfddbd6651719ab2b8be24c18000adffba63ccbc0cb95438b1838377a6",
-      "released_at": "2026-10-28T06:55:58.715Z",
-      "commit": "5d0fec0",
+      "version": "0.1.4",
+      "file": "ar-pump-testing-v0.1.4.apk",
+      "apk_url": "https://ops.arenergyservices.in/apps/apps/pump/ar-pump-testing-v0.1.4.apk",
+      "size": 4185142,
+      "sha256": "d642ea95531112dea3b24ee03851adb5c5d9074ecf905aae33636f8422dae30a",
+      "released_at": "2026-10-28T08:28:38.534Z",
+      "commit": "21cea0c",
       "history": [
+        {
+          "version": "0.1.4",
+          "file": "ar-pump-testing-v0.1.4.apk",
+          "apk_url": "https://ops.arenergyservices.in/apps/apps/pump/ar-pump-testing-v0.1.4.apk",
+          "size": 4185142,
+          "sha256": "d642ea95531112dea3b24ee03851adb5c5d9074ecf905aae33636f8422dae30a",
+          "released_at": "2026-10-28T08:28:38.534Z",
+          "commit": "21cea0c",
+          "hosted": true
+        },
         {
           "version": "0.1.3",
           "file": "ar-pump-testing-v0.1.3.apk",
@@ -130,7 +160,7 @@
           "sha256": "b4ae7085c2acd804564947e794ae57e08cb409a3be93c739bd7a65f120efa665",
           "released_at": "2026-10-27T17:03:14.681Z",
           "commit": "6972c09",
-          "hosted": true
+          "hosted": false
         }
       ]
     },
@@ -138,14 +168,24 @@
       "name": "Air Findings",
       "tagline": "Compressed air audit — compressor efficiency, FAD and leak tests",
       "icon": "apps/air/icon.png",
-      "version": "0.2.3",
-      "file": "ar-air-findings-v0.2.3.apk",
-      "apk_url": "https://ops.arenergyservices.in/apps/apps/air/ar-air-findings-v0.2.3.apk",
-      "size": 4469511,
-      "sha256": "239cd99ece1d82b3db48eb769eb095ceb11cce58d742bd7367e96f32d3ffc1d9",
-      "released_at": "2026-10-28T06:59:55.484Z",
-      "commit": "af07ace",
+      "version": "0.2.4",
+      "file": "ar-air-findings-v0.2.4.apk",
+      "apk_url": "https://ops.arenergyservices.in/apps/apps/air/ar-air-findings-v0.2.4.apk",
+      "size": 4471463,
+      "sha256": "89378a3b73c1b552529f39438ce0d2de18f17f6b2ed1dd1dba4faf6ea562e0ed",
+      "released_at": "2026-10-28T08:32:19.382Z",
+      "commit": "c4eac4c",
       "history": [
+        {
+          "version": "0.2.4",
+          "file": "ar-air-findings-v0.2.4.apk",
+          "apk_url": "https://ops.arenergyservices.in/apps/apps/air/ar-air-findings-v0.2.4.apk",
+          "size": 4471463,
+          "sha256": "89378a3b73c1b552529f39438ce0d2de18f17f6b2ed1dd1dba4faf6ea562e0ed",
+          "released_at": "2026-10-28T08:32:19.382Z",
+          "commit": "c4eac4c",
+          "hosted": true
+        },
         {
           "version": "0.2.3",
           "file": "ar-air-findings-v0.2.3.apk",
@@ -174,7 +214,7 @@
           "sha256": "876ec3f17a4354f794034ee928dd7783fe050e7006cb56947a950c23ffcd7298",
           "released_at": "2026-10-27T17:05:20.045Z",
           "commit": "ba02661",
-          "hosted": true
+          "hosted": false
         }
       ]
     },
@@ -182,14 +222,24 @@
       "name": "Boiler & Fuel",
       "tagline": "Boiler and thermic fluid heater efficiency — direct and indirect methods",
       "icon": "apps/heat/icon.png",
-      "version": "0.1.3",
-      "file": "ar-boiler-fuel-v0.1.3.apk",
-      "apk_url": "https://ops.arenergyservices.in/apps/apps/heat/ar-boiler-fuel-v0.1.3.apk",
-      "size": 4842612,
-      "sha256": "bf50e5e63c70fbb3bcba2c5bc91de289870b7c430feba98471e9570285dbea2e",
-      "released_at": "2026-10-28T07:02:51.838Z",
-      "commit": "56e035c",
+      "version": "0.1.4",
+      "file": "ar-boiler-fuel-v0.1.4.apk",
+      "apk_url": "https://ops.arenergyservices.in/apps/apps/heat/ar-boiler-fuel-v0.1.4.apk",
+      "size": 4844272,
+      "sha256": "7fe5c858fd3ea457cfb6afd7df5360f6da9787903a4004524e6277cacf74d744",
+      "released_at": "2026-10-28T08:36:08.869Z",
+      "commit": "2075f99",
       "history": [
+        {
+          "version": "0.1.4",
+          "file": "ar-boiler-fuel-v0.1.4.apk",
+          "apk_url": "https://ops.arenergyservices.in/apps/apps/heat/ar-boiler-fuel-v0.1.4.apk",
+          "size": 4844272,
+          "sha256": "7fe5c858fd3ea457cfb6afd7df5360f6da9787903a4004524e6277cacf74d744",
+          "released_at": "2026-10-28T08:36:08.869Z",
+          "commit": "2075f99",
+          "hosted": true
+        },
         {
           "version": "0.1.3",
           "file": "ar-boiler-fuel-v0.1.3.apk",
@@ -218,7 +268,7 @@
           "sha256": "eb6df8b3eab8c5e1c42f4fcbc8576153da6809333509d8fc853df0b84b148877",
           "released_at": "2026-10-27T17:07:34.271Z",
           "commit": "03f12f9",
-          "hosted": true
+          "hosted": false
         }
       ]
     },
@@ -226,14 +276,24 @@
       "name": "AHU & Cooling",
       "tagline": "AC, chiller, AHU and cooling-tower performance",
       "icon": "apps/cool/icon.png",
-      "version": "0.2.3",
-      "file": "ar-ahu-cooling-v0.2.3.apk",
-      "apk_url": "https://ops.arenergyservices.in/apps/apps/cool/ar-ahu-cooling-v0.2.3.apk",
-      "size": 4656262,
-      "sha256": "25d313ed6077e409c9807fa376e7c0f99ac04e77ef9aa96935b13c7b1806db6e",
-      "released_at": "2026-10-28T07:04:55.325Z",
-      "commit": "6d2d712",
+      "version": "0.2.4",
+      "file": "ar-ahu-cooling-v0.2.4.apk",
+      "apk_url": "https://ops.arenergyservices.in/apps/apps/cool/ar-ahu-cooling-v0.2.4.apk",
+      "size": 4675902,
+      "sha256": "3ac1ac72fcb6717db9bfaa50f296afcce3203fd5968478c8c0a322e87175da3c",
+      "released_at": "2026-10-28T08:39:13.995Z",
+      "commit": "4d84476",
       "history": [
+        {
+          "version": "0.2.4",
+          "file": "ar-ahu-cooling-v0.2.4.apk",
+          "apk_url": "https://ops.arenergyservices.in/apps/apps/cool/ar-ahu-cooling-v0.2.4.apk",
+          "size": 4675902,
+          "sha256": "3ac1ac72fcb6717db9bfaa50f296afcce3203fd5968478c8c0a322e87175da3c",
+          "released_at": "2026-10-28T08:39:13.995Z",
+          "commit": "4d84476",
+          "hosted": true
+        },
         {
           "version": "0.2.3",
           "file": "ar-ahu-cooling-v0.2.3.apk",
@@ -262,7 +322,7 @@
           "sha256": "2fc449309e4cdc6826b94627a5ae97768bed7966c189ab6f56b1a1db8b98f3a7",
           "released_at": "2026-10-27T17:09:40.063Z",
           "commit": "eb4e8c1",
-          "hosted": true
+          "hosted": false
         }
       ]
     }
