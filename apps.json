@@ -1,6 +1,6 @@
 {
   "$comment": "Written by tools/publish.mjs. Installed AR apps read apps[<code>].version and apk_url to offer updates.",
-  "updated_at": "2026-10-29T12:25:51.443Z",
+  "updated_at": "2026-10-29T12:27:29.450Z",
   "apps": {
     "survey": {
       "name": "BRIEF",
@@ -330,14 +330,24 @@
       "name": "MLA",
       "tagline": "Motor load analysis: load factor, efficiency, unbalance, thermal loss and long-term monitoring",
       "icon": "apps/motor/icon.png",
-      "version": "0.1.2",
-      "file": "ar-mla-v0.1.2.apk",
-      "apk_url": "https://ops.arenergyservices.in/apps/apps/motor/ar-mla-v0.1.2.apk",
-      "size": 4768686,
-      "sha256": "cfaab32b31f4b3cb3b9f8f7cc4a2351a6d195497a6b71d27cb63d9197217e66a",
-      "released_at": "2026-10-29T12:25:51.443Z",
-      "commit": "c3aaf6b",
+      "version": "0.1.3",
+      "file": "ar-mla-v0.1.3.apk",
+      "apk_url": "https://ops.arenergyservices.in/apps/apps/motor/ar-mla-v0.1.3.apk",
+      "size": 4799646,
+      "sha256": "b7a2bd6f078d6b1687ef204682067bf12c6076c418ca3f92bd63048b1f90d80d",
+      "released_at": "2026-10-29T12:27:29.450Z",
+      "commit": "b860b50",
       "history": [
+        {
+          "version": "0.1.3",
+          "file": "ar-mla-v0.1.3.apk",
+          "apk_url": "https://ops.arenergyservices.in/apps/apps/motor/ar-mla-v0.1.3.apk",
+          "size": 4799646,
+          "sha256": "b7a2bd6f078d6b1687ef204682067bf12c6076c418ca3f92bd63048b1f90d80d",
+          "released_at": "2026-10-29T12:27:29.450Z",
+          "commit": "b860b50",
+          "hosted": true
+        },
         {
           "version": "0.1.2",
           "file": "ar-mla-v0.1.2.apk",
@@ -366,7 +376,7 @@
           "sha256": "09f227e39e673706c7ffd63e1e56dd088641721eb0b7a7ea48371cf13e4fbea8",
           "released_at": "2026-10-29T12:17:18.522Z",
           "commit": "5675abc",
-          "hosted": true
+          "hosted": false
         }
       ]
     }
