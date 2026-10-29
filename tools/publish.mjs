@@ -13,7 +13,7 @@ const PAGE_URL = (process.env.APK_PAGE_URL || "https://ops.arenergyservices.in/a
 const KEEP = 3; // APK files kept per app; older versions stay listed but are not downloadable
 const HISTORY = 25; // versions listed per app
 // The order apps appear on the page (any other app goes after these).
-const ORDER = ["survey", "textile", "pump", "air", "heat", "cool"];
+const ORDER = ["survey", "textile", "pump", "air", "heat", "cool", "motor"];
 
 const args = process.argv.slice(2);
 const opt = (name) => { const i = args.indexOf(`--${name}`); return i >= 0 ? args[i + 1] : undefined; };
